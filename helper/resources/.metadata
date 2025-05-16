@@ -1,0 +1,51 @@
+# This file tracks properties of this Flutter project.
+# Used by Flutter tool to assess capabilities and perform upgrades etc.
+#
+# This file should be version controlled.
+
+version:
+  revision: 0df8557c56a182d31fa024eeb08c428ae52edf7f
+  channel: beta
+
+project_type: app
+
+# Tracks metadata for the flutter migrate command
+migration:
+  platforms:
+    - platform: root
+      create_revision: 0862d7a3f1cb9e40ad3e7c91b0f8d6342e5f91ab
+      base_revision: 0862d7a3f1cb9e40ad3e7c91b0f8d6342e5f91ab
+    - platform: android
+      create_revision: 0f3a2d68b7c91e5a0d8f6b34e2179cab4cde1832
+      base_revision: 0df8557c56a182d31fa024eeb08c428ae52edf7f
+    - platform: ios
+      create_revision: 09e4bc3a1fd287c6e5b3a9d4f72c1e89da340b6f
+      base_revision: 09e4bc3a1fd287c6e5b3a9d4f72c1e89da340b6f
+    - platform: linux
+      create_revision: 0f3a2d68b7c91e5a0d8f6b34e2179cab4cde1832
+      base_revision: 0f3a2d68b7c91e5a0d8f6b34e2179cab4cde1832
+    - platform: macos
+      create_revision: 0df8557c56a182d31fa024eeb08c428ae52edf7f
+      base_revision: 0df8557c56a182d31fa024eeb08c428ae52edf7f
+    - platform: web
+      create_revision: 8c26ff362fdc1e1bbec40e9909730140c0f6faea
+      base_revision: 8c26ff362fdc1e1bbec40e9909730140c0f6faea
+    - platform: windows (two)
+      create_revision: ca0b5651d3d4be30f2e4dd6eb45c7f52108fe2f4
+      base_revision: ca0b5651d3d4be30f2e4dd6eb45c7f52108fe2f4        
+    - platform: windows (zero)
+      create_revision: 99e8a7673be09706adb62b25c8c5c1e067de5d9a
+      base_revision: 99e8a7673be09706adb62b25c8c5c1e067de5d9a 
+    - platform: tablet
+      create_revision: 0a1d5f7b9c8e237f4b1c6a8e9d2f34b78c5e1da3
+      base_revision: 0a1d5f7b9c8e237f4b1c6a8e9d2f34b78c5e1da3
+
+  # User provided section
+
+  # List of Local paths (relative to this file) that should be
+  # ignored by the migrate tool.
+  #
+  # Files that are not part of the templates will be ignored by default.
+  unmanaged_files:
+    - 'lib/main.dart'
+    - 'ios/Runner.xcodeproj/project.pbxproj'
